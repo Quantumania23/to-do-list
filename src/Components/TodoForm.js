@@ -7,9 +7,13 @@ export const TodoForm = ({addTodo}) => {
       // prevent default action
         e.preventDefault();
         if (value) {
+
+
           // add todo
           addTodo(value);
-          // clear form after submission
+
+
+          // clearing the form after submission
           setValue('');
         }
       };
